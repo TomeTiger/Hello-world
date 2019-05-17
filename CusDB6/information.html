@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="Shortcut Icon" href="./images/logo.ico" />
+<link rel="stylesheet" href="./css/style.css" type="text/css" media="all">
+
+</head>
+
+<body bgcolor="#94C2E3">
+<script type="text/javascript" src="./js/index.js"></script>
+<! -------------------------------------------------------------------------------------->
+<div>
+	<div id="logo">
+		<img src="./images/joy_logo.jpg" width="100" height="100" alt="profile_picture">
+	</div>
+<! -------------------------------------------------------------------------------------->
+	<div id="header">
+		<h1>Customer Info&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+	</div>
+</div>
+<! -------------------------------------------------------------------------------------->
+<div id="nav">
+	<a href="./index.php" id="home">Home</a><br>
+	<a href="./information.html">Information</a><br>
+	<a href="#">Relationship</a><br>
+<h4>友情链接</h4>
+	<a href="http://www.thinkl.com.cn/" target="_blank">智珑</a><br>
+	<a href="http://www.joyzhiyuan.com/" target="_blank">加一</a><br>
+	<a href="http://www.tobacco.gov.cn/html/" target="_blank">烟草</a><br>
+	<a href="http://www.chinapost.com.cn/" target="_blank">邮政</a><br>
+</div>
+<! -------------------------------------------------------------------------------------->
+<div id="section1">
+	<img id="profile" src="./images/profile.jpg" alt="profile_picture">
+<h2>客户意向</h2>
+<p>
+预计2019年4月下旬将进行营销中心全体员工烟草专卖培训，以期提高员工素质，同时也将进行户外拓展活动，以促进员工之间交流。
+</p>
+<div class="buttons">
+	<button class="button button1" onclick="showIntention('layer_intention','layer_relation','layer_infomation')"><a class="anchor" href="#goto">修改</a></button>
+</div>
+<h2>主要关系</h2>
+<table id="customer_rela" class="customer_info">
+  <tr>
+    <td>1:</td>
+    <td><a href="#">常山造纸农</a></td>
+  </tr>
+  <tr>
+    <td>2：</td>
+    <td><a href="#">燕人张翼德</a></td>
+  </tr>
+  <tr>
+    <td>3：</td>
+    <td><a href="#">襄阳庞士元</a></td>
+  </tr>
+  <tr>
+    <td>4：</td>
+    <td><a href="#">南蛮王孟获</a></td>
+  </tr>
+  <tr>
+    <td>5：</td>
+    <td><a href="#">乌程侯孙坚</a></td>
+  </tr>
+</table>
+<div class="buttons">
+	<button class="button button1" onclick="showIntention('layer_relation','layer_intention','layer_infomation')"><a class="anchor" href="#goto">修改</a></button>
+</div>
+</div>
+<! -------------------------------------------------------------------------------------->
+<div id="section2">
+<h2>客户资料</h2>
+<table id="customer_info_id" class="customer_info">
+  <tr>
+    <td>姓名：</td>
+    <td>诸葛小花</td>
+  </tr>
+  <tr>
+    <td>档位：</td>
+    <td>C类</td>
+  </tr>
+  <tr>
+    <td>性别：</td>
+    <td>男</td>
+  </tr>
+  <tr>
+    <td>民族：</td>
+    <td>汉族</td>
+  </tr>
+  <tr>
+    <td>籍贯：</td>
+    <td>四川泸州</td>
+  </tr>
+  <tr>
+    <td>学历：</td>
+    <td>大学本科</td>
+  </tr>
+  <tr>
+    <td>公司/职位：</td>
+    <td>泸州市烟草公司/营销中心主任</td>
+  </tr>
+  <tr>
+    <td>出生国历：</td>
+    <td>1980-07-03</td>
+  </tr>
+  <tr>
+    <td>出生阴历：</td>
+    <td>1980年6月初三</td>
+  </tr>
+ <tr>
+    <td>电话：</td>
+    <td>19818181988</td>
+  </tr>
+  <tr>
+    <td>QQ：</td>
+    <td>24695231</td>
+  </tr>
+  <tr>
+    <td>邮箱：</td>
+    <td>zhugexiaohua@163.com</td>
+  </tr>
+  <tr>
+    <td>性格特点：</td>
+    <td>开朗乐观,非常有自信</td>
+  </tr>
+  <tr>
+    <td>业余爱好：</td>
+    <td>钓鱼、摸虾、抓螃蟹、摇扇子</td>
+  </tr>
+  <tr>
+    <td>其他忌讳：</td>
+    <td>不能在他面前吃土豆丝</td>
+  </tr>
+  <tr>
+    <td>身体情况：</td>
+    <td>身体健康吃嘛嘛香</td>
+  </tr>
+  <tr>
+    <td>家庭地址：</td>
+    <td>泸州市龙马潭区滨江路134号柏林吉斯小区3栋2单元1楼</td>
+  </tr>
+  <tr>
+    <td>家庭情况：</td>
+    <td>一儿一女，儿子8岁女儿5岁</td>
+  </tr>
+  <tr>
+    <td>拜访记录：</td>
+    <td>2018年9月；2019年1月；2019年7月；</td>
+  </tr>
+  <tr>
+    <td>其他补充：</td>
+    <td>暂无</td>
+  </tr>
+</table>
+	<div class="buttons">
+		<button class="button button1" onclick="showIntention('layer_infomation','layer_intention','layer_relation')"><a class="anchor" href="#goto">修改</a></button>
+	</div>
+</div>
+<! -------------------------------------------------------------------------------------->
+
+<div id="layer_intention" class="layer">
+	<form class="inner_layer" action="./php/submit_intention.php" method="post">
+		<div class="title">
+			<h2>修改客户意向</h2>
+		</div>
+        <p><textarea name="message" rows="10" class="textarea-inherit" placeholder="请在这里输入客户意向的内容..."></textarea></p>
+		<p><input class="button" type="submit" value="确认修改" /></p>
+	</form>
+    <button class="button" onclick="hideIntention('layer_intention')">关闭表单</button>
+</div>
+<! ---->
+<div id="layer_relation" class="layer">
+	<form class="inner_layer" action="./php/formtest_intention.php" method="post">
+		<div class="title">
+			<h2>修改客户关系</h2>
+		</div>
+		<p><label>1: </label><input list="list_customer1" name="c1"></p>
+        <datalist id="list_customer1"></datalist>
+        <p><label>2: </label><input list="list_customer2" name="c2"></p>
+        <datalist id="list_customer2"></datalist>
+        <p><label>3: </label><input list="list_customer3" name="c3"></p>
+        <datalist id="list_customer3"></datalist>
+        <p><label>4: </label><input list="list_customer4" name="c4"></p>
+        <datalist id="list_customer4"></datalist>
+        <p><label>5: </label><input list="list_customer5" name="c5"></p>
+        <datalist id="list_customer5"></datalist>
+        
+		<p><input class="button" type="submit" value="确认提交" /></p>
+	</form>
+    <button class="button" onclick="hideIntention('layer_relation')">关闭表单</button>
+</div>
+<! ---->
+<div id="layer_infomation" class="layer">
+	<form class="inner_layer" action="" method="post">
+		<div class="title">
+			<h2>修改客户信息</h2>
+		</div>
+        <div class="monster">
+		<p><label>姓名: </label><input type="input" name="username" /></p>
+		<p><label>档位: </label><input type="input" name="range1" /></p>
+        <p><label>性别: </label><input type="input" name="gender" /></p>
+        <p><label>民族: </label><input type="input" name="nation" /></p>
+        <p><label>籍贯: </label><input type="input" name="native" /></p>
+        <p><label>学历: </label><input type="input" name="degree" /></p>
+        <p><label>公司/职位: </label><input type="input" name="company" /></p>
+        <p><label>出生国历: </label><input type="date" name="birth_date" /></p>
+        <p><label>出生阴历: </label><input type="input" name="birth_date1" /></p>
+        <p><label>电话: </label><input type="tel" name="tel" /></p>
+        </div>
+        <div class="monster">
+        <p><label>QQ: </label><input type="number" name="qq_num" /></p>
+		<p><label>邮箱: </label><input type="email" name="email" /></p>
+		<p><label>性格特点: </label><input type="input" name="trait" /></p>
+		<p><label>业余爱好: </label><input type="input" name="hobby" /></p>
+        <p><label>其他忌讳: </label><input type="input" name="taboo" /></p>
+        <p><label>身体情况: </label><input type="input" name="physical" /></p>
+        <p><label>家庭地址: </label><input type="input" name="address" /></p>
+        <p><label>家庭情况: </label><input type="input" name="family" /></p>
+        <p><label>拜访记录: </label><input type="input" name="visit" /></p>
+        <p><label>其他补充: </label><input type="input" name="other" /></p>
+        </div>
+        
+		<p><input class="button" type="submit" value="确认提交" /></p>
+	</form>
+    <button class="button button3" onclick="hideIntention('layer_infomation')">关闭表单</button>
+</div>
+<! -------------------------------------------------------------------------------------->
+<div id="footer">
+	<p>版权所有 Copyright @ 2019 Joy.WisdomConsulting YiZhang</p>
+</div>
+<! -------------------------------------------------------------------------------------->
+<a name="goto"></a>
+</body>
+</html>

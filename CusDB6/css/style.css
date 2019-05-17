@@ -1,0 +1,177 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+	a:link    {color:black;}
+	a:visited {color:black;}
+	a:hover   {color:#BD2D30;}
+	a:active  {color:yellow;}  
+a {
+	text-decoration:none;
+}
+#logo {
+	width:10%;
+	height:110px;
+	background-color:#5ab5ee;
+	margin-left:15%;
+	margin-bottom:1px;
+	float:left;
+}	
+#logo img {
+	margin:5px;
+	-webkit-transition: width 1.5s, height 1.5s, -webkit-transform 1.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 1.5s, height 1.5s, transform 1.5s;
+}
+#logo img:hover {
+	transform:rotate(360deg);
+}
+#header {
+    background-color:#255988;
+    color:white;
+    text-align:center;
+	width:60%;
+	height:110px;
+	float:left;
+	margin-bottom:2px;
+	text-shadow: 5px 5px 5px #00f;
+}
+/*------------------------------------------------------------------------------*/
+#nav {
+    line-height:30px;
+    background-color:#ddd;
+    height:900px;
+    width:8%;
+    float:left;
+    padding:2%;
+	padding-bottom:0%;
+	margin-left:15%;  
+}
+#home {
+	color:#900;
+	font-weight:bold;
+}
+#nav h4 {
+	border-top:1px solid gray;
+	margin-bottom:5px;
+}
+/*------------------------------------------------------------------------------*/
+#section1 {
+	background-color:white;
+    width:23%;
+	height:900px;
+    float:left;
+    padding:1%;	 	 
+}
+#profile {
+	width:90%;
+	height:auto;
+	padding:3px;
+	border:1px solid grey;
+}
+#customer_rela{
+	color:#993;
+	width:100%;
+}
+#customer_rela tr td:first-child{
+	width:10px;
+}
+
+/*------------------------------------------------------------------------------*/
+#section2 {
+	background-color:white;
+    width:31%;
+	height:900px;
+    float:left;
+    padding:1%;	 	 
+}
+#section3 {
+	background-color:white;
+    width:56%;
+	height:900px;
+    float:left;
+    padding:1%;	 	 
+}
+h2 {
+	border-bottom:3px solid #0C9;
+}
+.customer_info,.customer_info tr {
+	border-collapse:collapse;
+	border-bottom:solid 1px grey;
+	text-align:left;
+	width:100%;
+}
+table tr td:first-child{
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 20px;
+}
+#customer_info_id tr td:first-child{
+	width:90px;
+}
+table tr td:nth-child(2){
+	font-size:15px;
+}
+table tr td:nth-child(2):hover{
+	color:#399;
+	weight:bold;
+}
+/*------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------*/
+.buttons {
+	width:100%;
+}
+.button,.button>a {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 4px;
+    cursor: pointer;
+	border-radius:5px;
+}
+.button3 {
+	
+}
+.anchor {
+	color:white;
+}
+/*------------------------------------------------------------------------------*/
+#footer {
+    background-color:#333;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	
+   	margin-left:15%;
+	margin-right:15%;
+	font-size:12px;
+}
+/*------------------------------------------------------------------------------*/
+.layer {
+	background-color:white;
+	display:none;
+	margin:0 15%;
+	border:3px solid white;
+}
+.inner_layer {
+	margin-left:5%;
+	margin-right:5%;
+}
+.textarea-inherit {
+    width: 100%;
+    overflow: auto;
+    word-break: break-all; //解决兼容问题
+}
+label {
+	width:100px;
+	display:inline-block;
+}
+.monster{
+	float:left;
+	width:50%;
+}
+
